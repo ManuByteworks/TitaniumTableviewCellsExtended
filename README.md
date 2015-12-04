@@ -9,3 +9,17 @@ This is a simple module that extends TiUITableViewRow to include some methods th
 
 I used this module to build a semi native parallax effect for table rows.
 
+You only need to require() the module once per application.
+
+```javascript
+//At the beginning of your app
+var m = require('net.cappelleri.tableviewrowextension');
+
+//Later on...
+for (var i = 0; i < tableData.length; i++) {
+var r = tableData[i];
+Ti.API.info("Checking on row n. " + i,"Row is visible?", r.isVisible(), "Row offset from table top is:", r.getTopOffset());
+
+}
+```
+
