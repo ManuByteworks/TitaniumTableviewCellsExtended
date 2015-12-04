@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/matteoderose/Documents/TitaniumModulesCollection/TitaniumTableviewCellsExtended/iphone/Classes/TiUITableViewRowProxy+WithVisibility.m \
+  /Users/matteoderose/Documents/Titanium-Local-Modules/TitaniumTableviewCellsExtended/iphone/Classes/TiUITableViewRowProxy+WithVisibility.m \
   /Users/matteoderose/Library/Application\ Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone/include/TiViewProxy.h \
   /Users/matteoderose/Library/Application\ Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone/include/TiProxy.h \
   /Users/matteoderose/Library/Application\ Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone/include/TiEvaluator.h \
