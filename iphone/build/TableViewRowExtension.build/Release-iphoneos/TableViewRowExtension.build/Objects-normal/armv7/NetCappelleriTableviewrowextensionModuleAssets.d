@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/matteoderose/Documents/TitaniumModulesCollection/TitaniumTableviewCellsExtended/iphone/Classes/NetCappelleriTableviewrowextensionModuleAssets.m \
+  /Users/matteoderose/Documents/TitaniumModulesCollection/TitaniumTableviewCellsExtended/iphone/Classes/NetCappelleriTableviewrowextensionModuleAssets.h

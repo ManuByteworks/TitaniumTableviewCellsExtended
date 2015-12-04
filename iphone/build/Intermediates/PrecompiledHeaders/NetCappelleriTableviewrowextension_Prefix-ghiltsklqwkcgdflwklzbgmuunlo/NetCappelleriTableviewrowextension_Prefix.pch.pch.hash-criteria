@@ -1,0 +1,27 @@
+-x
+objective-c
+-arch
+x86_64
+-std=c99
+-gmodules
+-fpascal-strings
+-O0
+-DTI_VERSION=
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk
+-fasm-blocks
+-mios-simulator-version-min=6.0
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-I/Users/matteoderose/Documents/TitaniumModulesCollection/TitaniumTableviewCellsExtended/iphone/build/Products/Debug-iphonesimulator/include
+-I/Users/matteoderose/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone/include
+-I/Users/matteoderose/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone/include/TiCore
+-I/Users/matteoderose/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone/include/JavaScriptCore
+-F/Users/matteoderose/Documents/TitaniumModulesCollection/TitaniumTableviewCellsExtended/iphone/build/Products/Debug-iphonesimulator
+-DDEBUG
+-DTI_POST_1_2
+x86_64-apple-darwin15.0.0
+"4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.1.76)"
+SDK_PRODUCT_BUILD_VERSION=13B137
+13B137

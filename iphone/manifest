@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Add some method to table view cell
+author: Manuele Cappelleri
+license: Free
+copyright: GPL
+
+# these should not be edited
+name: TableViewRowExtension
+moduleid: net.cappelleri.tableviewrowextension
+guid: 4d5dcf39-79ad-4fb6-826b-b966ed7faaeb
+platform: iphone
+minsdk: 5.1.1.GA
