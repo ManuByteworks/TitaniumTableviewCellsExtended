@@ -23,3 +23,33 @@ Ti.API.info("Checking on row n. " + i,"Row is visible?", r.isVisible(), "Row off
 }
 ```
 
+Just a quick example for the parallax effect...
+```javascript
+$.table.addEventListener('scroll', function(e) {
+    async.map(parallaxedcells, function(cell, callback) {
+        if (!cell) {
+            callback();
+            return;
+        }
+        if (cell.tableViewRow.isVisible()) {
+            var offset = cell.tableViewRow.getTopOffset() - 100;
+            var val = cell.imageDiff * offset / 150;
+            var hh = Alloy.Globals.paddedTextRowHeight * offset / 150;
+            if (val < 0) {
+                val = 0;
+            }
+            if (val > cell.imageDiff) {
+                val = cell.imageDiff;
+            }
+            
+            cell.textPostImage.animate();
+            cell.textPostImage.animate({
+                top: (-1 * val),
+                duration: 125,
+            });
+        }
+        callback();
+    }, function() {
+    });
+});
+```
