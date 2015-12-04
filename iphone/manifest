@@ -5,7 +5,7 @@
 version: 1.0.0
 apiversion: 2
 architectures: armv7 arm64 i386 x86_64
-description: Add some method to table view cell that are useful for parallax effect
+description: Add some method to table view cell that are useful for parallax effect (check if row is visible and distance from top of the table)
 author: Manuele Cappelleri
 license: Free
 copyright: GPL
